@@ -1,13 +1,11 @@
 import React from 'react';
 import TodoList from './components/TodoList';
 import TodoForm from './components/TodoForm';
-
-
+import './components/Todo.css';
 
 class App extends React.Component {
   // Constructor with state
    // you will need a place to store your state in this component.
-
   constructor() {
     super();
     this.state = {
